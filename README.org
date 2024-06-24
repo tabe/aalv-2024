@@ -1,0 +1,8 @@
+#+TITLE: Simulation code for Sci Rep 14, 8521 (2024)
+
+* Abstract
+This is an archive of the simulation code for our study [1].
+[[https://nixos.org/][Nix]] is a prerequisite for running the R programs of this repository.
+
+* Reference
+1. Abe, T., Asai, Y., Lintas, A. et al. Detection of quadratic phase coupling by cross-bicoherence and spectral Granger causality in bifrequencies interactions. Sci Rep 14, 8521 (2024). https://doi.org/10.1038/s41598-024-59004-8

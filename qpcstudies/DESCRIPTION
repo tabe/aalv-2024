@@ -1,0 +1,30 @@
+Package: qpcstudies
+Title: R code for case studies about detecting quadratic phase coupling
+Version: 2024.01.15
+Authors@R: 
+    person("Takeshi", "Abe", , "t.abe@yamaguchi-u.ac.jp", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-7074-4561"))
+Description: This is an R package prividing the API to calculate R_BQPC and R_GQPC for case studies about detecting quadratic phase coupling (QPC).
+License: file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: R (>= 4.1.0)
+Imports: 
+    cowplot,
+    dplyr,
+    ggplot2,
+    ggpp,
+    grangers,
+    magrittr,
+    multitaper,
+    psych,
+    purrr,
+    qvalue,
+    readr,
+    rhosa,
+    testthat,
+    tibble,
+    tidyr,
+    tseries,
+    vars

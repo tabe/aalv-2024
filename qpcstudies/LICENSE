@@ -1,0 +1,3 @@
+Copyright 2022-2024 Takeshi Abe. All rights reserved.
+
+.Granger.inference.unconditional() is based on Granger.inference.unconditional() of grangers package released under the GPLv2 or GPLv3 license.
