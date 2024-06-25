@@ -20,7 +20,6 @@
       study1-bqpc = callPackage ./pkgs/study1-bqpc.nix { inherit custom-R study1-data; };
       study1-gqpc = callPackage ./pkgs/study1-gqpc.nix { inherit custom-R study1-data; };
       study1 = callPackage ./pkgs/study1.nix { inherit custom-R study1-data study1-bqpc study1-gqpc; };
-      xbic-conf = callPackage ./pkgs/xbic-conf.nix {};
     in {
       inherit study0-data;
       inherit study1-data;
