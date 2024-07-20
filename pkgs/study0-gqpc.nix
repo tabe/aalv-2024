@@ -13,6 +13,11 @@ stdenv.mkDerivation {
 
   makeFlags = [ "study0-gqpc.tar.gz" ];
 
+  ## to avoid overcommitting CPU cores in the code of tseries
+  preBuild = ''
+    export OMP_NUM_THREADS=1
+  '';
+
   installPhase = ''
     install -d $out
     install study0-gqpc.tar.gz $out/
