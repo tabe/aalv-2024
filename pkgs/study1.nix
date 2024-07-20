@@ -5,10 +5,10 @@ stdenv.mkDerivation {
 
   src = ../study1;
 
-  nativeBuildInputs = [ custom-R study1-bqpc study1-gqpc ];
+  nativeBuildInputs = [ custom-R study1-data study1-bqpc study1-gqpc ];
 
   configurePhase = ''
-    tar xf ${study1-data}
+    tar xf ${study1-data}/study1-data.tar.gz
     tar xf ${study1-bqpc}/study1-bqpc.tar.gz
     tar xf ${study1-gqpc}/study1-gqpc.tar.gz
   '';
