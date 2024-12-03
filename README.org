@@ -1,7 +1,9 @@
 #+TITLE: Simulation code for Sci Rep 14, 8521 (2024)
 
 * Abstract
-This is an archive of the simulation code for our study [1].
+This archive contains the simulation code used in our study [1].
+The code is licensed under the [[file:LICENSE][GNU General Public License version 3 (GPLv3)]],
+except where otherwise noted within individual files.
 [[https://nixos.org/][Nix]] is a prerequisite for running the R programs of this repository.
 
 * Reference
